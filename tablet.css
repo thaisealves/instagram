@@ -1,0 +1,197 @@
+@media screen and (max-width: 935px){
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: #E5E5E5;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    strong{
+        font-weight: 500;
+    }
+    
+    .menu-desktop{
+    background-color: #FFFFFF;
+
+    height: 54px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    font-size: 20px;
+    }
+    .menu-left{
+        width: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .division {
+        width: 1px;
+        height: 22px ;
+        background-color: #DBDBDB;
+        position: center;
+    }
+    .search-bar div{
+        width: 215px;
+        height: 28px;
+        background-color: #fafafa;
+        border: 1px solid #DBDBDB;
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search-bar p{
+        color: #979797;
+        font-weight: 400;
+        line-height: 14px;
+        font-size: 12px;
+    }
+    .icons-right {
+        width: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .stories{
+        width: 614px;
+        background-color: #FFFFFF;
+      margin-top: 84px;
+        height: 121px;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    } 
+    .arrow{
+        color: #FFFFFF;
+        position: absolute;
+        right: 8px;
+        font-size: 26px;
+    }
+    
+    .perfil-story{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 23px;
+    
+    
+    }
+    .story-image{
+        width: 66px;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(/images/stories_background.png);
+        background-position: center center;
+    
+    }
+    .story-image img{
+        height: 56px; 
+    }
+    
+    .perfil-story h5{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+    }
+    .posts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-img {
+        background-color: #FFFFFF;
+       box-sizing: border-box;
+        width: 614px;
+        margin-bottom: 60px;
+        border: 1px solid #DBDBDB;
+    }
+    
+    .box-img > img{
+        width: 100%; 
+    }
+    .user{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 61px;
+        background-color: #FFFFFF;
+        box-sizing: border-box;
+       
+    }
+    .user div{
+        display: flex;
+        align-items: center
+    }
+    .user img{
+        width: 32px;
+        height: 32px;
+        margin-left: 17px;
+    }
+    .user h4{
+        margin-left: 15px;
+        font-weight: 500;
+        width: 109px;
+        height: 21px;
+        font-size: 14px;
+        line-height: 16.41px;
+       
+    }
+    .user ion-icon{
+      
+        zoom: 150%;
+       margin-right: 3%;
+    }
+    
+    
+    .likes{
+        display: flex;
+        justify-content: space-between;
+        align-items: space-around;
+        padding: 13px 16px;
+        box-sizing: border-box;
+       
+    }
+    .likes ion-icon{
+        font-size: 18px;
+    }
+    .icons-left ion-icon{
+        margin-right: 17px;
+    }
+    .likedby{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding-bottom: 14px;
+        padding-left: 17px;
+    
+    }
+    .likedby img{
+        width: 20px;
+        padding-right: 5px;
+    }
+    
+
+
+
+    /* no display on desktop*/
+    .menu-mobile{
+        display: none;
+      }
+
+    .navigation{
+     display: none;
+    }
+
+}

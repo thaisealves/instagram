@@ -9,7 +9,7 @@ strong{
     font-weight: 500;
 }
 
-.menu{
+.menu-mobile{
     width: 100%;
     height: 54px;
     background-color: #FFFFFF;
@@ -26,13 +26,16 @@ strong{
     border: 1px solid #DBDBDB;
 }
 
-.menu ion-icon{
+.menu-mobile ion-icon{
     font-size: 20px;
 }
-.menu img{
+.menu-mobile img{
     height: 29px;
 }
 
+.all-posts{
+    width: 100%;
+}
 .stories{
     width: 100%;
     background-color: #E5E5E5;
@@ -163,5 +166,13 @@ strong{
 }
 .navigation ion-icon{
 zoom: 120%;
+}
+
+/* no display on mobile*/
+.menu-desktop{
+    display: none;
+}
+.arrow{
+    display: none;
 }
 }
