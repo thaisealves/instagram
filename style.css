@@ -182,7 +182,7 @@
         position: absolute;
         right: 8px;
         font-size: 26px;
-
+        
 
     }
     
@@ -296,7 +296,46 @@
         width: 20px;
         padding-right: 5px;
     }
-    
+
+        /*where the comments start*/
+        .fixed{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        
+            padding: 0px 16px 15px 17px;
+          
+            }
+        
+            .make-comment{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+        
+                padding: 0px 16px 15px 17px;
+            }
+        
+            .make-comment img{
+                width: 20px;
+                padding-right: 5px;
+            }
+        
+            input{
+                border: 1px solid lightgray;
+                width: 70%;
+                position: relative;
+            }
+        
+            button{
+                background-color: #FFFFFF;
+                color: #B2DFFC;
+                border: none;
+        
+                transition-duration: 300ms;
+            }
+            button:hover{
+                color: #0095F6;
+            }
 
 
 
