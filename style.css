@@ -1,11 +1,13 @@
 @media screen and (min-width: 935px){
     body{
         font-family: 'Roboto', sans-serif;
-        background-color: #E5E5E5;
+        background-color: #fafafa;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        color: #262626;
     }
     
     strong{
@@ -113,6 +115,19 @@
 
     }
 
+    .all-suggestions{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+
+        margin-bottom: 18px;
+    }
+    .all-suggestions h6{
+        color: #8E8E8E;
+    }
+
     .profile-suggest{
         display: flex;
         justify-content: space-between;
@@ -182,17 +197,29 @@
         position: absolute;
         right: 8px;
         font-size: 26px;
-        
-
+        filter: drop-shadow(0.5px 0px 6px grey);
     }
     
+    .profile-story h5{
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 78px;
+        text-overflow: ellipsis;
+        margin-left: 18px;
+
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        
+    }
+
     .profile-story{
+        max-width: 78px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        margin-left: 23px;
-    
+        
     
     }
     .story-image{
@@ -203,17 +230,16 @@
         align-items: center;
         background-image: url(/images/stories_background.png);
         background-position: center center;
+        margin-left: 18px;
+        
     
     }
     .story-image img{
         height: 56px; 
     }
     
-    .profile-story h5{
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 14px;
-    }
+ 
+    
 
     /* basically the union from all the big posts that are on the page */
     .posts{
@@ -249,6 +275,7 @@
         align-items: center
     }
     .user img{
+        border-radius: 28px;
         width: 32px;
         height: 32px;
         margin-left: 17px;
@@ -279,7 +306,7 @@
        
     }
     .likes ion-icon{
-        font-size: 18px;
+        font-size: 25px;
     }
     .icons-left ion-icon{
         margin-right: 17px;
@@ -293,52 +320,60 @@
     
     }
     .likedby img{
+        border-radius: 10px;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+/*where the comments start*/
+    .fixed{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+    padding: 0px 16px 15px 17px;
+  
+    }
+
+    .make-comment{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0px 16px 15px 17px;
+    }
+
+    .make-comment img{
         width: 20px;
         padding-right: 5px;
     }
 
-        /*where the comments start*/
-        .fixed{
-            display: flex;
-            justify-content: space-between;
-            font-size: 14px;
-        
-            padding: 0px 16px 15px 17px;
-          
-            }
-        
-            .make-comment{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-        
-                padding: 0px 16px 15px 17px;
-            }
-        
-            .make-comment img{
-                width: 20px;
-                padding-right: 5px;
-            }
-        
-            input{
-                border: 1px solid lightgray;
-                width: 70%;
-                position: relative;
-            }
-        
-            button{
-                background-color: #FFFFFF;
-                color: #B2DFFC;
-                border: none;
-        
-                transition-duration: 300ms;
-            }
-            button:hover{
-                color: #0095F6;
-            }
+    input{
+        border: 1px solid lightgray;
+        width: 78%;
+        position: relative;
+    }
 
+    button{
+        background-color: #FFFFFF;
+        color: #B2DFFC;
+        border: none;
 
+        transition-duration: 300ms;
+    }
+    button:hover{
+        color: #0095F6;
+    }       
 
+/*pointer hover*/
+    ion-icon{
+    cursor: pointer;
+  
+    }
+    .pointer{
+        cursor: pointer;
+    }
     /* no display on desktop*/
     .menu-mobile{
         display: none;
